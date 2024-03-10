@@ -2,7 +2,7 @@
   "name": "myc0de",
   "version": "1.0.0",
   "description": "myc0de - website",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "sass:build": "sass --no-source-map scss:css",
     "sass:watch": "sass --no-source-map --watch scss:css"
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/towelie8/myc0de#readme",
   "dependencies": {
     "bootstrap": "^5.3.2",
-    "fontawesome": "^5.6.3"
+    "fontawesome": "^5.6.3",
+    "sass": "^1.71.1"
   }
 }
