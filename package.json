@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/towelie8/myc0de#readme",
   "dependencies": {
-    "bootstrap": "^5.3.2"
+    "bootstrap": "^5.3.2",
+    "fontawesome": "^5.6.3"
   }
 }
