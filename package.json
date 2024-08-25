@@ -1,7 +1,6 @@
 {
-  "name": "tailwindui-template",
+  "name": "myc0de",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -21,7 +20,7 @@
     "clsx": "^2.1.0",
     "fast-glob": "^3.2.11",
     "feed": "^4.2.2",
-    "next": "^14.0.4",
+    "next": "^14.2.6",
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
