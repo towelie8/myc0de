@@ -1,0 +1,42 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const article = {
+  author: 'Maximilian Becker',
+  date: new Date().toISOString().slice(0,10), // Heutiges Datum
+  title: 'Meine Fortschritte im Web-Development mit FreeCodeCamp',
+  description:
+    'Ich teile meine Lernerfahrungen und Fortschritte, die ich durch das Absolvieren spezifischer Kurse bei FreeCodeCamp gemacht habe, und reflektiere über die erworbenen Fähigkeiten und zukünftigen Ziele.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+# Meine Fortschritte im Web-Development mit FreeCodeCamp
+
+In den letzten Monaten habe ich mich intensiv mit den Grundlagen des Web-Developments auseinandergesetzt, indem ich mehrere Kurse auf FreeCodeCamp abgeschlossen habe. Diese Plattform hat mir geholfen, meine Kenntnisse schrittweise auszubauen.
+
+## Abgeschlossene Kurse
+
+Bis jetzt habe ich folgende Kurse abgeschlossen:
+
+1. **Learn HTML by Building a Cat Photo App** - 69 Lektionen, wo ich die Grundlagen von HTML gelernt habe.
+2. **Learn Basic CSS by Building a Cafe Menu** - 91 Lektionen, die mir die Grundprinzipien von CSS nähergebracht haben.
+3. **Learn CSS Colors by Building a Set of Colored Markers** - 94 Lektionen, in denen ich tiefer in die Welt der Farben in CSS eingetaucht bin.
+4. **Learn HTML Forms by Building a Registration Form** - 65 Lektionen, durch die ich verstanden habe, wie man Benutzerinteraktion durch Formulare gestaltet.
+
+Zusätzlich habe ich das **Certification Project: Survey Form** erfolgreich abgeschlossen, ein Projekt, das das Gelernte in die Praxis umsetzt und zeigt, wie man eine umfassende Umfrageform erstellt.
+
+## Was ich gelernt habe
+
+Jeder dieser Kurse hat mir wichtige Aspekte des Frontend-Developments vermittelt. Ich habe nicht nur gelernt, wie man Webseiten strukturiert und stilvoll gestaltet, sondern auch, wie man Benutzerinteraktionen durch Formulare effektiv handhabt. Die Projekte haben mir geholfen, theoretisches Wissen in praktische Fähigkeiten umzusetzen.
+
+## Zukünftige Ziele
+
+Mein nächster Schritt wird der Kurs **Responsive Web Design** sein, gefolgt von tiefergehenden Kursen in JavaScript. Langfristig möchte ich auch in Backend-Technologien einsteigen, um meine Fähigkeiten als Full-Stack-Entwickler zu erweitern.
+
+Durch diesen Blog möchte ich meine Erfahrungen teilen und vielleicht andere dazu inspirieren, ihren eigenen Lernweg im Bereich Web-Development zu beginnen oder fortzusetzen.
+
