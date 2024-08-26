@@ -19,6 +19,7 @@
     "autoprefixer": "*",
     "cheerio": "*",
     "clsx": "*",
+    "express": "^4.19.2",
     "fast-glob": "*",
     "feed": "*",
     "next": "*",
