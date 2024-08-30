@@ -1,0 +1,39 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const article = {
+  author: 'Maximilian Becker',
+  date: new Date().toISOString().slice(0,10), // Heutiges Datum
+  title: 'Lernen des CSS-Box-Modells durch das Erstellen eines Rothko-Gemäldes',
+  description:
+    'Ein tieferer Einblick in das CSS-Box-Modell, indem ich ein Rothko-Gemälde auf FreeCodeCamp nachgebaut habe. Ich teile meine Erkenntnisse und Erfahrungen aus diesem speziellen Kurs.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+# Lernen des CSS-Box-Modells durch das Erstellen eines Rothko-Gemäldes
+
+Vor kurzem habe ich den Kurs **"Learn the CSS Box Model by Building a Rothko Painting"** auf FreeCodeCamp abgeschlossen. Dieser Kurs war eine fantastische Gelegenheit, um ein grundlegendes Konzept im Web-Design – das CSS-Box-Modell – durch das Erstellen einer künstlerischen Darstellung im Stil von Mark Rothko zu erlernen und zu vertiefen.
+
+## Was ist das CSS-Box-Modell?
+
+Das CSS-Box-Modell ist ein fundamentales Konzept im Web-Design, das beschreibt, wie die Elemente auf einer Webseite dargestellt werden. Jedes HTML-Element kann als eine Box betrachtet werden, die aus vier Hauptkomponenten besteht:
+
+1. **Content** (Inhalt): Der eigentliche Inhalt der Box, wie Text oder Bilder.
+2. **Padding** (Innenabstand): Der Raum zwischen dem Inhalt der Box und dem Rand (Border).
+3. **Border** (Rand): Die Umrandung, die das Padding und den Inhalt umschließt.
+4. **Margin** (Außenabstand): Der Abstand zwischen der Border der Box und anderen Elementen auf der Seite.
+
+Durch das Verständnis und die Kontrolle dieser vier Komponenten können Designer das Layout und die Ästhetik einer Webseite präzise steuern.
+
+## Meine Erfahrungen im Kurs
+
+Im Kurs haben wir Schritt für Schritt gelernt, wie man diese Konzepte anwendet, um ein Kunstwerk zu erstellen, das an die berühmten rechteckigen Gemälde von Mark Rothko erinnert. Dabei haben wir verschiedene CSS-Eigenschaften wie `padding`, `margin`, `border` und `width` verwendet, um die gewünschten Effekte zu erzielen.
+
+### Highlights des Kurses:
+
+- **Praktische Anwendung des Box-Modells**: Anstatt
