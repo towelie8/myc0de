@@ -1,0 +1,43 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const article = {
+    author: 'Maximilian Becker',
+    date: '2024-09-15',
+    title: 'Create a Component with Composition – Ein wichtiger Schritt in meiner React-Reise',
+    description: 'In diesem Artikel teile ich meine Erfahrungen mit der Kompositions-Technik in React, die ich im FreeCodeCamp-Kurs gelernt habe.',
+}
+
+export const metadata = {
+    title: article.title,
+    description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+# Create a Component with Composition – Ein wichtiger Schritt in meiner React-Reise
+
+Während meiner Arbeit am React-Kurs auf FreeCodeCamp bin ich auf eine der zentralen Techniken von React gestoßen: Komposition. Diese Technik erlaubt es Entwicklern, verschiedene Komponenten miteinander zu kombinieren, um größere, wiederverwendbare UI-Bausteine zu erstellen. In diesem Artikel möchte ich meine Erfahrungen mit der Lektion "Create a Component with Composition" teilen.
+
+## Was ist Komposition in React?
+
+Komposition ist in React eine Methode, bei der kleinere Komponenten in eine übergeordnete Komponente eingebettet werden. Dies erlaubt es, wiederverwendbare, flexible und modulare UIs zu entwickeln. Statt monolithische Komponenten zu erstellen, kann man Teile der Benutzeroberfläche in separate, kleinere Komponenten aufteilen und dann miteinander kombinieren.
+
+## Erste Schritte: Der Aufbau einer Komponente mit Komposition
+
+Im FreeCodeCamp-Kurs habe ich gelernt, wie man durch Komposition eine React-Komponente aufbaut, die andere Komponenten enthält. Das folgende Beispiel verdeutlicht die Idee:
+
+```jsx
+const Header = () => <h1>Welcome to my website</h1>;
+
+const Content = () => (
+    <div>
+        <p>This is the main content of the website.</p>
+    </div>
+);
+
+const App = () => (
+    <div>
+        <Header />
+        <Content />
+    </div>
+);
