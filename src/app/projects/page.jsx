@@ -14,7 +14,7 @@ const projects = [
     description:
       '..',
     link: { href: 'example link', label: 'example label' },
-   // logo: exampleLogo,
+    logo: 'exampleLogo',
   }
 ]
 
